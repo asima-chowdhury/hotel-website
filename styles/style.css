@@ -1,0 +1,267 @@
+/*
+    Name: Hotel website
+    Description: Onepage Hotel website.There are nav, slider, about, rooms, gallery , blog, contact ,footer section
+    Developer: Asima Chowdhury
+*/
+
+/*-------------- Reuseble code start ----------------*/
+body{
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h5{
+    font-family: 'Lobster', cursive;
+}
+.padding-bt-70{
+    padding: 70px 0;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 40px;
+}
+.orange-highlight{
+    color: #f4511e;
+}
+.blue-highlight{    
+    color: #243856;
+}
+.bg-orange{
+    background-color: #f4511e;
+}
+.bg-blue{
+    background-color: #243856;
+}
+/*-------------- Reuseble code end ----------------*/
+/*----------- Navigation-area Start -----------*/
+.navigation-area{
+    background-color:#f8f9fa;
+}
+.navigation-area li a{
+    font-weight: 600;
+    transition: 1s;
+}
+.navigation-area li a:hover{    
+    background-color: #243856;
+    color: #fff!important;
+}
+/*----------- Navigation-area End -----------*/
+/*----------- slider-area Start -----------*/
+.dark::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .6;
+}
+.welcome-text{
+    margin: 0;
+}
+/*----------- slider-area End -----------*/
+/*----------- about-area Start -----------*/
+.bg-image{
+    background-image: url("../images/about/about-bg.jpg");
+    background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+    height: 600px;
+}
+.w-30{
+    width: 30%;
+}
+.heading-design{
+    position: relative;
+    color: #f4511e;
+}
+.heading-design::before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: -17%;
+    background-color: #f4511e;
+    height: 4px;
+    width: 140%;
+}
+.heading-design::after{
+    content: "";
+    position: absolute;
+    top: 98%;
+    left: 45%;
+    background-color: #f4511e;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.custom-accordion {
+    color: #f4511e !important;
+    font-size: 25px;
+}
+.custom-accordion:hover{
+    text-decoration: none;
+}
+.btn:focus {
+    box-shadow: none;
+    text-decoration: none;
+}
+.progress-bar{
+    background-color: transparent;
+}
+.bg-warning {
+    background-color: #ff6907!important;
+}
+.custom-card-box, .single-gallery{
+    border: none;
+    box-shadow: 0px 8px 42px #adabab;
+    overflow: hidden;
+}
+.custom-card-box img, .single-gallery img{
+    border: 5px solid #fff;
+    transition: transform ease-in-out 1s;
+}
+.custom-card-box:hover img , .single-gallery:hover img{
+    transform: scale(1.1);
+}
+.custom-card-image p{
+    padding: 2px 7px;
+    position: absolute;
+    top: 4%;
+    right: 6%;
+}
+/*----------- about-area End -----------*/
+/*----------- check-in-area Start -----------*/
+.single-checkin p{
+    font-size: 30px;
+    font-weight: 800;
+}
+.single-checkin .cancel{
+    font-size: 15px;
+}
+/*----------- check-in-area End -----------*/
+/*----------- facilities-area Start -----------*/
+.facilities-image{
+    position: relative;
+}
+.facilities-image::before{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #f4511e;
+    right: 0;
+    bottom: 6%;
+    width: 0%;
+    transition: 1s;
+}
+.facilities-image::after{
+    content: "";
+    position: absolute;
+    border-left: 3px solid #f4511e;
+    right: 4%;
+    bottom: 0;
+    height: 0%;
+    transition: 1s;
+}
+.facilities-image:hover::before{
+    width: 95%;
+}
+.facilities-image:hover::after{
+    height: 95%;
+}
+/*----------- facilities-area End -----------*/
+/*----------- more-facilities-area Start -----------*/
+.others-facilities-image{
+    position: relative;
+    z-index: 1;
+}
+.others-facilities-image::before{
+    content: "";
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    height: 0;
+    width: 0;
+    border-top: 150px solid #f4511e;
+    border-right: 150px solid transparent;
+    z-index: -1;
+}
+.others-facilities-image::after{
+    content: "";
+    position: absolute;
+    bottom: -1%;
+    right: 4%;
+    height: 0;
+    width: 0;
+    border-bottom: 150px solid #f4511e;
+    border-left: 150px solid transparent;
+    z-index: -1;
+}
+.single-check-border{
+    border: 1px solid #f4511e;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+/*----------- more-facilities-area End -----------*/
+/*----------- item-area Start -----------*/
+.single-item-box i{
+    font-size: 40px;
+}
+.single-item-box{
+    transition: .5s;
+}
+.single-item-box:hover{
+    transform: translateY(-10px);
+    transition: .5s ease-in-out;
+}
+/*----------- item-area End -----------*/
+/*----------- blog-area Start -----------*/
+.single-blog{
+    border:none;
+}
+.single-blog img{
+    transition: 1s;
+}
+.single-blog:hover img{
+    transform: translateY(-10px);
+    transition: 1s ease-in-out;
+}
+/*----------- blog-area End -----------*/
+/*----------- contact-area Start -----------*/
+.single-contact i{
+    font-size: 30px;
+}
+.contact-map{
+    border: 5px solid #fff;
+}
+/*----------- contact-area End -----------*/
+/*----------- footer-area Start -----------*/
+.quick-link-design{
+    padding: 5px;
+    background-color: transparent;
+    border:none;
+    color: #fff;
+}
+.footer-gallery img{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #fff;
+}
+.social-icon i{
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    transition: .5s;
+}
+.social-icon i:hover{
+    background-color: #fff;
+    color:#243856;
+}
+/*----------- footer-area End -----------*/

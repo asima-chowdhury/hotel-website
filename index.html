@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jardim Secreto</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Maven+Pro:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap style -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- custom style -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <!----------- Navigation-area Start ----------->
+  <header class="navigation-area fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="logo" class="w-50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active px-2">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#room">Rooms</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!----------- Navigation-area End ----------->
+  <!----------- Main-area Start ----------->
+  <main>
+    <!----------- slider-area Start ----------->
+    <section class="slider-area padding-bt-70" id="home">
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active dark">
+              <img src="images/slider/slider-1.jpg" class="d-block w-100 img-fluid" alt="slider">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="welcome-text">Welcome To</p>
+                <h1>Jardim Secreto</h1>
+                <p>This is a very good description of your property!</p>
+              </div>
+            </div>
+            <div class="carousel-item dark">
+              <img src="images/slider/slider-2.jpg" class="d-block w-100 img-fluid" alt="slider">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>For Spending Leisure time</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item dark">
+              <img src="images/slider/slider-3.jpg" class="d-block w-100 img-fluid" alt="slider">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Perfect place for Dining</h1>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!----------- slider-area End ----------->
+    <!----------- about-area Start ----------->
+    <section class="about-area padding-bt-70" id="about">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <h2 class="heading-design">About Us</h2>
+        </div>
+        <div class="row mb-5 bg-image d-flex align-items-center">
+          <div class="col-md-6">
+            <div class="about-article mx-4">
+              <h3 class="orange-highlight">Story About Us</h3>
+              <p class="text-white pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo minus
+                nihil, voluptates harum eveniet dolorum quam cum beatae veritatis facere illo sapiente architecto ipsa
+                suscipit expedita, quibusdam quis laborum recusandae dolore perspiciatis nostrum quos at error. Maxime,
+                sed! Molestias rerum voluptates enim beatae eum quidem animi cum facilis exercitationem perspiciatis?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-bar">
+              <h6 class="text-left">Social Networks</h6>
+              <div class="progress my-3">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="95"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6 class="text-left">Business Planning</h6>
+              <div class="progress my-3">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6 class="text-left">Art & Design</h6>
+              <div class="progress my-3">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="images/about/left-side.png" alt="" class="w-30 img-fluid mb-3">
+          </div>
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link custom-accordion" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      Accommodation
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="text-secondary">We Offer Lots of Great Accommodation Options Designed to Provide the Best
+                      Level of Comfort<br />
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto beatae animi, incidunt unde
+                      inventore voluptate delectus aspernatur architecto illo eos.Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Iusto beatae animi, incidunt unde inventore voluptate delectus
+                      aspernatur architecto illo eos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed custom-accordion" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Restaurant
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="text-secondary">“Aurora”, the Restaurant Located at our Hotel Offers an Amazingly Varied
+                      Menu to Our Customers.<br />
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto beatae animi, incidunt unde
+                      inventore voluptate delectus aspernatur architecto illo eos.Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Iusto beatae animi, incidunt unde inventore voluptate delectus
+                      aspernatur architecto illo eos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed custom-accordion" data-toggle="collapse"
+                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Great Staff
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="text-secondary">Hotel Employs the Best People in the Industry - From Waiters to
+                      Receptionists<br />
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto beatae animi, incidunt unde
+                      inventore voluptate delectus aspernatur architecto illo eos.Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit. Iusto beatae animi, incidunt unde inventore voluptate delectus
+                      aspernatur architecto illo eos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- about-area End ----------->
+    <!----------- room-area Start ----------->
+    <section class="room-area padding-bt-70 bg-light" id="room">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <h2 class="heading-design">Our Rooms</h2>
+        </div>
+        <div class="row">
+          <div class="card-deck">
+            <div class="col-md-4">
+              <div class="card custom-card-box">
+                <div class="custom-card-image">
+                  <img src="images/room/room-1.png" class="card-img-top img-fluid" alt="room">
+                  <p class="text-white bg-orange">$200 / night</p>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title orange-highlight d-flex">Family <span class="ml-auto text-secondary">4
+                      Person</span></h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut maximus purus,
+                    quis lacinia dui. Aenean scelerisque.</p>
+                  <div class="row mt-4">
+                    <div class="col-lg-6 col-6">
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Bathtub</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Shower</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Bathrobe</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-6">
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Coffee/Tea</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Wifi</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Television</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card custom-card-box">
+                <div class="custom-card-image">
+                  <img src="images/room/room-2.png" class="card-img-top img-fluid" alt="room">
+                  <p class="text-white bg-orange">$250 / night</p>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title orange-highlight d-flex">Standard <span class="ml-auto text-secondary">2
+                      Person</span></h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut maximus purus,
+                    quis lacinia dui. Aenean scelerisque.</p>
+                  <div class="row mt-4">
+                    <div class="col-lg-6 col-6">
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Bathtub</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Shower</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Bathrobe</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-6">
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Coffee/Tea</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Wifi</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Television</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card custom-card-box">
+                <div class="custom-card-image">
+                  <img src="images/room/room-3.png" class="card-img-top img-fluid" alt="room">
+                  <p class="text-white bg-orange">$300 / night</p>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title orange-highlight d-flex">Premium <span class="ml-auto text-secondary">2
+                      Person</span></h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut maximus purus,
+                    quis lacinia dui. Aenean scelerisque.</p>
+                  <div class="row mt-4">
+                    <div class="col-lg-6 col-6">
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Bathtub</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Shower</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Bathrobe</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-6">
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Coffee/Tea</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Wifi</p>
+                      </div>
+                      <div class="single-check">
+                        <i class="fas fa-check-square orange-highlight"></i>
+                        <p class="d-inline-block pl-1">Television</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!----------- room-area End ----------->
+    <!----------- check-in-area Start ----------->
+    <section class="check-in-area padding-bt-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-2">
+            <div class="single-checkin bg-orange text-center py-3">
+              <h4 class="text-white pt-3">Check-In Time</h4>
+              <p class="blue-highlight">3PM</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2">
+            <div class="single-checkin bg-orange text-center py-3">
+              <h4 class="text-white pt-3">Check-In Out</h4>
+              <p class="blue-highlight">9PM</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2">
+            <div class="single-checkin bg-orange text-center py-3">
+              <h4 class="text-white pt-3">Cancelations</h4>
+              <p class="cancel blue-highlight">Our Cancelation <br> Policies are here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- check-in-area End ----------->
+    <!----------- facilities-area Start ----------->
+    <section class="facilities-area padding-bt-70 bg-light">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <h2 class="heading-design">Our Special Facilities</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="facilities-image">
+              <img src="images/facilities/spa.jpg" class="img-fluid" alt="spa">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="facilities-article text-center">
+              <img src="images/facilities/spa-icon.png" class="img-fluid" alt="spa-icon">
+              <h2 class="mb-2">Spa</h2>
+              <p class="text-secondary">Relax and Enjoy<br>Our SPA and treatments are ready for you.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="facilities-article text-center">
+              <img src="images/facilities/restaurant-icon.png" class="img-fluid" alt="restaurant-icon">
+              <h2 class="mb-2">Restaurant</h2>
+              <p class="text-secondary">The best food you can experience!<br>CHECK OUR FULL MENU</p>
+              <button type="button" class="btn btn-outline-danger mb-2">Click Here</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="facilities-image">
+              <img src="images/facilities/restaurant.jpg" class="img-fluid" alt="restaurant">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- facilities-area End ----------->
+    <!----------- More-facilities-area Start ----------->
+    <section class="others-facilities-area padding-bt-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="others-facilities-image">
+              <img src="images/facilities/hotel.jpg" class="img-fluid" alt="hotel">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="others-facilities-article">
+              <h2 class="orange-highlight">Others Facilities</h2>
+              <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                viverra maecenas accumsan lacus vel facilisis.</p>
+            </div>
+            <div class="row mt-5 text-secondary">
+              <div class="col-lg-6 col-md-6 col-6">
+                <div class="single-check single-check-border">
+                  <i class="fas fa-check-square orange-highlight"></i>
+                  <p class="d-inline-block pl-1 mb-0">Dry Cleaning</p>
+                </div>
+                <div class="single-check single-check-border">
+                  <i class="fas fa-check-square orange-highlight"></i>
+                  <p class="d-inline-block pl-1 mb-0">Valet Parking</p>
+                </div>
+                <div class="single-check single-check-border">
+                  <i class="fas fa-check-square orange-highlight"></i>
+                  <p class="d-inline-block pl-1 mb-0">ATM on site</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-6">
+                <div class="single-check single-check-border">
+                  <i class="fas fa-check-square orange-highlight"></i>
+                  <p class="d-inline-block pl-1 mb-0">Ven. Machine</p>
+                </div>
+                <div class="single-check single-check-border">
+                  <i class="fas fa-check-square orange-highlight"></i>
+                  <p class="d-inline-block pl-1 mb-0">Car Parking</p>
+                </div>
+                <div class="single-check single-check-border">
+                  <i class="fas fa-check-square orange-highlight"></i>
+                  <p class="d-inline-block pl-1 mb-0">Storage</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- More-facilities-area End ----------->
+    <!----------- item-area Start ----------->
+    <section class="item-area padding-bt-70 orange-highlight bg-blue">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="single-item-box bg-white p-4">
+              <i class="fas fa-wifi orange-highlight pb-1"></i>
+              <h4>FREE WIFI</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-item-box bg-white p-4 my-3">
+              <i class="fas fa-car orange-highlight pb-1"></i>
+              <h4 class="orange">FREE PARKING</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-item-box bg-white p-4">
+              <i class="fas fa-paw orange-highlight pb-1"></i>
+              <h4 class="orange">NOT ALLOWED</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- item-area End ----------->
+    <!----------- gallery-area Start ----------->
+    <section class="gallery-area padding-bt-70 bg-light" id="gallery">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <h2 class="heading-design">Gallery</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="single-gallery my-2 my-2">
+              <img src="images/gallery/gallery-1.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-2.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-3.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-4.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-5.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-6.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-7.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-8.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-gallery my-2">
+              <img src="images/gallery/gallery-9.jpg" class="w-100" alt="gallery">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- gallery-area End ----------->
+    <!----------- blog-area Start ----------->
+    <section class="blog-area padding-bt-70 bg-light" id="blog">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <h2 class="heading-design">Blog</h2>
+        </div>
+        <div class="row">
+          <div class="card-deck">
+            <div class="col-md-4">
+              <div class="card single-blog mb-4">
+                <img src="images/blog/blog-1.jpg" alt="blog" class="card-img-top">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <small class="orange-highlight"><span><i class="far fa-clock"></i></span> 10 May 2019</small> <small
+                      class="orange-highlight"><span><i class="fas fa-pencil-alt"></i></span> John Doe</small>
+                  </div>
+                  <hr>
+                  <h5 class="card-title blue-highlight">Sedial Eiusmod</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga eos magnam
+                    placeat nostrum iure
+                    modi, sunt dicta ipsum voluptatum?</p>
+                </div>
+                <div class="card-footer bg-white">
+                  <button type="button" class="btn btn-outline-danger">Continue Reading &rarr;</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card single-blog mb-4">
+                <img src="images/blog/blog-2.jpg" alt="blog" class="card-img-top">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <small class="orange-highlight"><span><i class="far fa-clock"></i></span> 04 Aug 2019</small> <small
+                      class="orange-highlight"><span><i class="fas fa-pencil-alt"></i></span> Anne Smith</small>
+                  </div>
+                  <hr>
+                  <h5 class="card-title blue-highlight">Donec Luctus</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga eos magnam
+                    placeat nostrum iure
+                    modi, sunt dicta ipsum voluptatum?</p>
+                </div>
+                <div class="card-footer bg-white">
+                  <button type="button" class="btn btn-outline-danger">Continue Reading &rarr;</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card single-blog mb-4">
+                <img src="images/blog/blog-3.jpg" alt="blog" class="card-img-top">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <small class="orange-highlight"><span><i class="far fa-clock"></i></span> 03 Mar 2020</small> <small
+                      class="orange-highlight"><span><i class="fas fa-pencil-alt"></i></span> Rose Dozen</small>
+                  </div>
+                  <hr>
+                  <h5 class="card-title blue-highlight">Parturient Montes</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga eos magnam
+                    placeat nostrum iure
+                    modi, sunt dicta ipsum voluptatum?</p>
+                </div>
+                <div class="card-footer bg-white">
+                  <button type="button" class="btn btn-outline-danger">Continue Reading &rarr;</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- blog-area End ----------->
+    <!----------- contact-area Start ----------->
+    <section class="contact-area padding-bt-70 bg-light" id="contact">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <h2 class="heading-design">Contact Us</h2>
+        </div>
+        <div class="row text-center blue-highlight">
+          <div class="col-md-4">
+            <div class="single-contact">
+              <i class="fas fa-phone pb-2"></i>
+              <p>1-800-1234-678<br>1-800-9876-098</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-contact border-left border-right border-secondary">
+              <i class="fas fa-envelope pb-2"></i>
+              <p>info@demolink.org <br> info@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-contact">
+              <i class="fas fa-map-marker-alt pb-2"></i>
+              <p>2130 Fulton Street San Diego, CA<br> 94117-1080 USA</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row d-flex justify-content-center my-5">
+          <h3 class="blue-highlight">Get in Touch!</h3>
+        </div>
+        <div class="row">
+          <div class="contact-form col-md-6">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="Phone">Phone</label>
+                  <input type="text" class="form-control" id="Phone">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="Textarea">Your Message</label>
+                  <textarea class="form-control" id="Textarea" rows="3"></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-outline-danger mb-2">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-location col-md-6">
+            <div class="contact-map text-center p-1">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.0872634725315!2d-117.16974238533548!3d32.78994539063428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95553d0c648c1%3A0xf544680df10cb4fa!2sFulton%20St%2C%20San%20Diego%2C%20CA%2092111%2C%20USA!5e0!3m2!1sen!2sbd!4v1594723716513!5m2!1sen!2sbd"
+                width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- contact-area End ----------->
+  </main>
+  <!----------- Main-area End ----------->
+  <!----------- footer-area Start ----------->
+  <section class="footer-area padding-bt-70 bg-blue text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="quick-link mb-3">
+            <h5>Quick Links</h5>
+            <div class="list-group">
+              <a id="home" href="#" class="list-group-item list-group-item-action quick-link-design">Home</a>
+              <a id="about" href="#" class="list-group-item list-group-item-action quick-link-design">About</a>
+              <a id="room" href="#" class="list-group-item list-group-item-action quick-link-design">Rooms</a>
+              <a id="gallery" href="#" class="list-group-item list-group-item-action quick-link-design">Gallery</a>
+              <a id="blog" href="#" class="list-group-item list-group-item-action quick-link-design">Blog</a>
+              <a id="contact" href="#" class="list-group-item list-group-item-action quick-link-design">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="award mb-3">
+            <h5>Awards!</h5>
+            <p class="text-uppercase"><i class="fas fa-trophy pr-2"></i>Hotel Master Award 2017</p>
+            <p><i class="fas fa-crown pr-2"></i>Boutique Choice 2018</p>
+            <p><i class="fas fa-star pr-2"></i>5 Star 2019</p>
+            <p><i class="fas fa-certificate pr-2"></i>International Award 2019</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-gallery mb-3">
+            <h5>Gallery</h5>
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <img src="images/gallery/gallery-1.jpg" alt="footer-gallery" class="m-2 img-fluid">
+                <img src="images/gallery/gallery-2.jpg" alt="footer-gallery" class="m-2 img-fluid">
+                <img src="images/gallery/gallery-3.jpg" alt="footer-gallery" class="m-2 img-fluid">
+                <img src="images/gallery/gallery-4.jpg" alt="footer-gallery" class="m-2 img-fluid">
+                <img src="images/gallery/gallery-5.jpg" alt="footer-gallery" class="m-2 img-fluid">
+                <img src="images/gallery/gallery-6.jpg" alt="footer-gallery" class="m-2 img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="book-now mb-3">
+            <h5>Book Now!</h5>
+            <p><i class="fas fa-envelope pr-2"></i>info@gmail.com</p>
+            <p><i class="fas fa-phone pr-2"></i>1-800-1234-678</p>
+            <div class="social-icon text-center my-2">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-pinterest-p"></i></a>
+              <a href=""><i class="fab fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row text-center">
+        <div class="copyright col-md-12">
+          <p>All Rights Reserved &copy; 2020 | Designed by Asima Chowdhury.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------- footer-area End ----------->
+  <!-- Js Code start -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!-- Js Code end -->
+</body>
+
+</html>
